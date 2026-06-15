@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Comic+Relief:wght@400;700&family=Coral+Pixels&display=swap');
+
+
+
+
+nav li {
+  List-style-type: none;
+  Display: inline-block;
+  Background-color: Pink;
+  Color:#4A4A4A;
+  Padding: 10px;
+  Margin: 10px;
+  Width: 27%;
+  
+ }
+
+A {
+  Color: #4A4A4A;
+}
+ nav {font-size: 25px;} 
+
+Body {
+    font-family: "Comic Neue", cursive;
+  font-weight: 300;
+  font-style: normal;
+  color: pink;
+  Background-color: #4A4A4A;
+  Max-width: 900px;
+  Margin: auto;
+}
+
+H1, h2, h3 {
+
+  font-family: "Comic Relief", system-ui;
+  font-weight: 700;
+  font-style: normal;
+  Color: #4A4A4A;
+  Background-color:pink;
+  Margin: auto;
+  Text-align: center;
+}
+
+
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  Margin: auto;
+  Padding: 5px;
+  Text-align: center;
+}
+
+Tr:hover {
+  Background-color: black;
+}
+
+Td:hover {
+  Color: Pink;
+}
+
+
+/*
+#87CEFA
+#4A4A4A  
+#CBCBCB
+#FFFFE3
+#6D8196
+*/
