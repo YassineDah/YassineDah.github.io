@@ -76,15 +76,13 @@ a {
 
 p {
     margin: 10px 0;
-    padding: 10px;
-    background: rgba(255, 182, 193, 0.05);
+    padding: 5px 0;
 }
 
 
 ul {
     margin: 10px 0 20px 30px;
-    padding: 10px;
-    background: rgba(255, 182, 193, 0.05);
+    padding: 5px 0;
 }
 
 li {
@@ -97,7 +95,6 @@ table {
     max-width: 600px;
     margin: 15px auto;
     border-collapse: collapse;
-    background: rgba(255, 182, 193, 0.05);
 }
 
 th, td {
@@ -112,13 +109,16 @@ th {
     font-weight: 700;
 }
 
+td {
+    background: rgba(255, 182, 193, 0.05);
+}
+
 
 .project-list {
     margin: 20px 0;
 }
 
 .project-item {
-    background: rgba(255, 182, 193, 0.08);
     padding: 20px;
     margin: 15px 0;
 }
@@ -133,7 +133,6 @@ th {
 }
 
 .project-item p {
-    background: none;
     padding: 5px 0;
 }
 
