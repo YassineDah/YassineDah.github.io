@@ -20,8 +20,7 @@ body {
 h1 {
     color: #4A4A4A;
     background: #FFB6C1;
-    padding: 15px 25px;
-    border-radius: 10px;
+    padding: 15px;
     text-align: center;
     margin: 20px 0;
     font-size: 2.5rem;
@@ -30,8 +29,7 @@ h1 {
 h2 {
     color: #4A4A4A;
     background: #FFB6C1;
-    padding: 10px 20px;
-    border-radius: 10px;
+    padding: 10px 15px;
     text-align: center;
     margin: 20px 0 15px 0;
     font-size: 1.8rem;
@@ -49,7 +47,6 @@ nav {
     margin: 20px 0;
     padding: 10px;
     background: rgba(255, 182, 193, 0.1);
-    border-radius: 10px;
 }
 
 nav ul {
@@ -62,7 +59,6 @@ nav li {
     background: #FFB6C1;
     padding: 10px 20px;
     margin: 5px 10px;
-    border-radius: 25px;
     font-weight: 700;
 }
 
@@ -71,21 +67,17 @@ nav li a {
     text-decoration: none;
 }
 
+
 a {
     color: #FFB6C1;
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
-}
 
 p {
     margin: 10px 0;
     padding: 10px;
     background: rgba(255, 182, 193, 0.05);
-    border-radius: 8px;
-    border-left: 3px solid #FFB6C1;
 }
 
 
@@ -93,7 +85,6 @@ ul {
     margin: 10px 0 20px 30px;
     padding: 10px;
     background: rgba(255, 182, 193, 0.05);
-    border-radius: 8px;
 }
 
 li {
@@ -130,8 +121,6 @@ th {
     background: rgba(255, 182, 193, 0.08);
     padding: 20px;
     margin: 15px 0;
-    border-radius: 10px;
-    border-left: 4px solid #FFB6C1;
 }
 
 .project-item h2 {
@@ -144,7 +133,6 @@ th {
 }
 
 .project-item p {
-    border-left: none;
     background: none;
     padding: 5px 0;
 }
@@ -155,13 +143,8 @@ th {
     padding: 8px 20px;
     background: #FFB6C1;
     color: #4A4A4A;
-    border-radius: 25px;
     font-weight: 700;
     text-decoration: none;
-}
-
-.project-item a:hover {
-    background: #FF69B4;
 }
 
 
