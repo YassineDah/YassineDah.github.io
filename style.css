@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
 
 * {
     margin: 0;
@@ -7,7 +7,9 @@
 }
 
 body {
-    font-family: "Comic Neue", cursive;
+    font-family: "Henny Penny", system-ui;
+    font-weight: 400;
+    font-style: normal;
     background: #4A4A4A;
     color: #FFD1DC;
     max-width: 900px;
@@ -15,7 +17,6 @@ body {
     padding: 20px;
     line-height: 1.6;
 }
-
 
 h1 {
     color: #4A4A4A;
@@ -40,7 +41,6 @@ h3 {
     margin: 15px 0 10px 0;
     font-size: 1.3rem;
 }
-
 
 nav {
     text-align: center;
@@ -67,18 +67,15 @@ nav li a {
     text-decoration: none;
 }
 
-
 a {
     color: #FFB6C1;
     text-decoration: none;
 }
 
-
 p {
     margin: 10px 0;
     padding: 5px 0;
 }
-
 
 ul {
     margin: 10px 0 20px 30px;
@@ -88,7 +85,6 @@ ul {
 li {
     padding: 3px 0;
 }
-
 
 table {
     width: 100%;
@@ -112,7 +108,6 @@ th {
 td {
     background: rgba(255, 182, 193, 0.05);
 }
-
 
 .project-list {
     margin: 20px 0;
@@ -146,7 +141,6 @@ td {
     text-decoration: none;
 }
 
-
 footer {
     text-align: center;
     padding: 20px 0 10px 0;
@@ -154,7 +148,6 @@ footer {
     border-top: 1px solid rgba(255, 182, 193, 0.2);
     margin-top: 30px;
 }
-
 
 @media (max-width: 600px) {
     nav li {
